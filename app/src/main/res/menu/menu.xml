@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mCadastrar"
+        android:title="Cadastrar"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mExluir"
+        android:title="Excluir"
+        android:icon="@drawable/clear"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mAlterar"
+        android:title="Alterar"
+        android:icon="@drawable/alterar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mSalvar"
+        android:title="Salvar"
+        android:icon="@drawable/save"
+        app:showAsAction="ifRoom" />
+
+</menu>
